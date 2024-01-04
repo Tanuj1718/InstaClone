@@ -2,7 +2,7 @@ import { Flex, Container, VStack } from "@chakra-ui/layout";
 import { Box } from "@chakra-ui/layout";
 import React from "react";
 import { Image } from "@chakra-ui/image";
-import AuthForm from "../../components/AuthForm/AuthForm";
+import AuthForm from "../../components/AuthForm/AuthForm/AuthForm";
 
 function AuthPage(){
     return(
