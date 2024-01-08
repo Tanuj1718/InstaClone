@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router'
 import HomePage from './pages/HomePage/HomePage'
 import AuthPage from './pages/AuthPage/AuthPage'
 import PageLayout from './Layout/PageLayout/PageLayout'
+import ProfilePage from './pages/ProfilePage/ProfilePage'
 
 function App() {
 
