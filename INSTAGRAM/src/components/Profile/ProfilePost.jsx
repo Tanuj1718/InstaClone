@@ -1,8 +1,11 @@
-import { Flex, GridItem, Image, useDisclosure, Text, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, Modal, Box, Avatar, Divider, VStack } from "@chakra-ui/react"
+import { Flex, GridItem, Image, useDisclosure, Text, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, Modal, Box, Avatar, Divider, VStack } from "@chakra-ui/react"
 import {AiFillHeart} from 'react-icons/ai'
 import {FaComment} from 'react-icons/fa'
 import ProfilePosts from "./ProfilePosts"
 import {MdDelete} from 'react-icons/md'
+import Comment from "../Comment/Comment"
+import PostFooter from "../FeedPosts/PostFooter"
+
 const ProfilePost = ({img})=>{
     const {isOpen, onOpen, onClose} = useDisclosure()
     return <>
@@ -93,6 +96,8 @@ const ProfilePost = ({img})=>{
                         text={"made it man!"}
                         />
                     </VStack>
+                    <Divider my={4} bg={"gray.800"}/>
+                    <PostFooter isProfilePage={true}/>
                 </Flex>
             </Flex>
           </ModalBody>
