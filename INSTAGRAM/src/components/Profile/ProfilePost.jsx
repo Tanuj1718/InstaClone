@@ -95,6 +95,7 @@ const ProfilePost = ({img})=>{
                         profilePic = {"/profilepic.png"}
                         text={"made it man!"}
                         />
+                        
                     </VStack>
                     <Divider my={4} bg={"gray.800"}/>
                     <PostFooter isProfilePage={true}/>
