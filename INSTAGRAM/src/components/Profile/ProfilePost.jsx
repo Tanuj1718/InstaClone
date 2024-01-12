@@ -66,7 +66,7 @@ const ProfilePost = ({img})=>{
                     <Flex alignItems={"center"} justifyContent={"space-between"}>
 
                     <Flex alignItems={"center"} gap={4}>
-                        <Avatar src="/profilepic.png" size={"sm"} name="Tanuj Nainwal"/>
+                        <Avatar src="/profilepic.jpg" size={"sm"} name="Tanuj Nainwal"/>
                         <Text fontWeight={"bold"} fontSize={12}>ur_soulmate
                         </Text>
                     </Flex>
@@ -79,9 +79,9 @@ const ProfilePost = ({img})=>{
                     <VStack w={"full"} alignItems={"start"} maxH={"350px"} overflow={"auto"}>
                         <Comment
                         createdAt = "1d ago"
-                        username = "ur_soulmate"
-                        profilePic = "/profilepic.png"
-                        text={"dummy images from pexels"}
+                        username = "_jsx17"
+                        profilePic = "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        text={"Mahadev..."}
                         />
                         <Comment
                         createdAt = {"13h ago"}

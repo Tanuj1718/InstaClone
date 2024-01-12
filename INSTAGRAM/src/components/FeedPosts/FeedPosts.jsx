@@ -32,13 +32,13 @@ const FeedPosts = () =>{
             img = '/img1.png' username = 'miss_pm' avatar ='/img1.png'
             />
             <FeedPost
-            img = '/img2.png' username = 'vk18' avatar ='/img1.png'
+            img = 'vk18.jpg' username = 'VK_18' avatar ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iE_8knqjuOLL8A-EMJsmHXWQo3JFqQ2qRA&usqp=CAU'
             />
             <FeedPost
-            img = '/img3.png' username = 'starx' avatar ='/img1.png'
+            img = '/sm18.jpg' username = 'smriti_18' avatar ='https://upload.wikimedia.org/wikipedia/commons/2/29/Ms._Smriti_Mandhana%2C_Arjun_Awardee_%28Cricket%29%2C_in_New_Delhi_on_July_16%2C_2019_%28cropped%29.jpg'
             />
             <FeedPost
-            img = '/img4.png' username = 'tanuj_1718' avatar ='/img1.png'
+            img = '/tn1718.jpg' username = 'ur_soulmate' avatar ='https://c8.alamy.com/comp/2B07EGR/initial-letter-tn-logo-design-vector-template-linked-typography-tn-letter-logo-design-2B07EGR.jpg'
             />
             </>
         )}

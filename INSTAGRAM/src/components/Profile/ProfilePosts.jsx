@@ -32,8 +32,8 @@ const ProfilePosts = ()=>{
     {!isLoading && (
         <>
         <ProfilePost img="/img1.png" />
-        <ProfilePost img="/img2.png"/>
-        <ProfilePost img="/img3.png" />
+        <ProfilePost img="/tn1718.jpg"/>
+        <ProfilePost img="https://5.imimg.com/data5/SELLER/Default/2022/8/VM/JU/JN/123797861/kedarnath-yatra-by-helicopter-500x500.jpeg" />
         <ProfilePost img="/img4.png" />
         </>
     )}
