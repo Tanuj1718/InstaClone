@@ -36,13 +36,13 @@ const ProfilePost = ({img})=>{
                 <Flex>
                     <AiFillHeart size={20}/>
                     <Text fontWeight={"bold"} ml={2}>
-                        18
+                        1000
                     </Text>
                 </Flex>
                 <Flex>
                     <FaComment size={20}/>
                     <Text fontWeight={"bold"} ml={2}>
-                        18
+                        3
                     </Text>
                 </Flex>
             </Flex>
@@ -81,19 +81,19 @@ const ProfilePost = ({img})=>{
                         createdAt = "1d ago"
                         username = "_jsx17"
                         profilePic = "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        text={"Mahadev..."}
+                        text={"made it man!"}
                         />
                         <Comment
                         createdAt = {"13h ago"}
                         username = {"criptic_"}
                         profilePic = {"/profilepic.png"}
-                        text={"copying?"}
+                        text={"it's good"}
                         />
                         <Comment
                         createdAt = {"23m ago"}
                         username = {"miss_pm"}
-                        profilePic = {"/profilepic.png"}
-                        text={"made it man!"}
+                        profilePic = {"/img1.png"}
+                        text={"loved it..."}
                         />
                         
                     </VStack>
